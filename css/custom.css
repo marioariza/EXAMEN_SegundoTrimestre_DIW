@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Titulos';
+    src: url(../font/Moldyen.otf);
+}
+
+@font-face {
+    font-family: 'Textos';
+    src: url(../font/IBMPlexSerif-Regular.ttf);
+}
+
+.navbar {
+    background-color: #ddb892;
+}
+
+.boton {
+    margin-right: 3%;
+}
+
+.titulo {
+    margin-left: 3%;
+    margin-right: 40%;
+    font-size: 1.4em;
+    color: black;
+}
+
+.titulo:hover {
+    color: black;
+}
+
+.links {
+    margin-left: 3%;
+}
+
+.letras_nav {
+    font-family: 'Titulos';
+}
