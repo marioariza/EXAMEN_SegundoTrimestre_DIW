@@ -1,3 +1,5 @@
+/* FONT-FAMILY */
+
 @font-face {
     font-family: 'Titulos';
     src: url(../font/Moldyen.otf);
@@ -7,6 +9,8 @@
     font-family: 'Textos';
     src: url(../font/IBMPlexSerif-Regular.ttf);
 }
+
+/* NAVBAR */
 
 .navbar {
     background-color: #ddb892;
@@ -33,4 +37,22 @@
 
 .letras_nav {
     font-family: 'Titulos';
+}
+
+/* TEXTO INICIO */
+
+.titulo_inicio {
+    font-family: 'Titulos';
+    font-size: 3em;
+    color: #DDB892;
+    -webkit-text-stroke: 1.5px #9C6644;
+}
+
+.border_inicio {
+    border-bottom: 2px solid #9C6644;
+}
+
+.texto_inicio {
+    font-size: 1.2em;
+    font-family: 'Textos';
 }
