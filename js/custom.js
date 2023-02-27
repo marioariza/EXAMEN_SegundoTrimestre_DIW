@@ -9,6 +9,10 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $('#navfix').hide(900).delay(1300).show(770);
+});
+
+$(document).ready(function() {
     $("#boton_inicio").click(function() {
         $(".texto_inicio").toggle();
     });
