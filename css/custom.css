@@ -116,3 +116,20 @@
     font-family: 'Titulos';
     background-color: #9C6644;
 }
+
+/* NOSOTROS */
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mapa {
+    width: 400px;
+    height: 400px;
+}
+
+.div_contacto {
+    background-color: #9C6644;
+}
