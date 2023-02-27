@@ -19,7 +19,7 @@
 
     <!-- JS, JQUERY -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script defer src="custom.js"></script>
+    <script defer src="js/custom.js"></script>
     <script defer src="js/bootstrap.bundle.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -34,7 +34,7 @@
 
     <nav class="navbar navbar-expand-lg" id="navfix">
         <div class="container-fluid navbar">
-            <a class="titulo letras_nav text-decoration-none" href="index.html">Las Reliquias de la Vida</a>
+            <a class="titulo letras_nav text-decoration-none" href="#inicio">Las Reliquias de la Vida</a>
             <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,13 +44,13 @@
                         <a type="button" id="btnInicio" class="nav-link active letras_nav links" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letras_nav links" href="#servicios">Servicios</a>
+                        <a class="nav-link active letras_nav links" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letras_nav links" href="#">Nosotros</a>
+                        <a class="nav-link active letras_nav links" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link letras_nav links" href="#">Contacto</a>
+                        <a class="nav-link active letras_nav links" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -110,7 +110,7 @@
 
     <!-- SERVICIOS -->
 
-    <section class="container-fluid div_servicios">
+    <section class="container-fluid div_servicios" id="servicios">
         <br>
         <div class="container-fluid border_servicios">
             <p class="text-center m-4 titulo_servicios">Nuestros servicios</p>
@@ -191,7 +191,7 @@
 
     <!-- NOSOTROS -->
 
-    <section class="container-fluid div_inicio">
+    <section class="container-fluid div_inicio" id="nosotros">
         <div class="container-fluid border_inicio">
             <p class="text-center m-4 titulo_inicio">Nosotros, conócenos</p>
             <a type="button" class="d-flex justify-content-center align-content-center text-decoration-none" id="boton_nosotros">
@@ -218,7 +218,7 @@
 
     <!-- CONTACTO -->
 
-    <section class="container-fluid div_contacto">
+    <section class="container-fluid div_contacto" id="contacto">
             <div class="container-fluid border_contacto">
                 <br>
                 <p class="text-center m-4 titulo_contacto">Contáctanos</p>
