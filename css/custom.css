@@ -67,3 +67,52 @@
     font-size: 1.2em;
     font-family: 'Textos';
 }
+
+/* SERVICIOS */
+
+.div_servicios {
+    background-color: #DDB892;
+}
+
+.titulo_servicios {
+    font-family: 'Titulos';
+    font-size: 3em;
+    color: #9C6644;
+    -webkit-text-stroke: 0.75px #9C6644;
+}
+
+.border_servicios {
+    border-bottom: 2px solid #9C6644;
+}
+
+.texto_servicios {
+    font-size: 1.2em;
+    font-family: 'Textos';
+    color: white;
+}
+
+.card_ser {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-title {
+    font-family: 'Titulos';
+    text-align: center;
+    color: #9C6644;
+}
+
+.card-text {
+    font-family: 'Textos';
+}
+
+.boton-serv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titulos';
+    background-color: #9C6644;
+}
