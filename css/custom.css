@@ -10,10 +10,40 @@
     src: url(../font/IBMPlexSerif-Regular.ttf);
 }
 
+.loader {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    color: #DDB892;
+    -webkit-text-stroke: 2px #9C6644;
+    z-index: 10000;
+    transition: 2s ease-in-out;
+}
+
+.frase_loader {
+    font-family: 'TituloS';
+    font-size: 9vh;
+}
+
+.loader2 {
+    visibility: hidden;
+}
+
 /* NAVBAR */
 
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
 .navbar {
-    background-color: #ddb892;
+    background-color: rgb(221, 184, 146);
     position:fixed;
         top:0;
         display:none;
@@ -68,6 +98,16 @@
     font-family: 'Textos';
 }
 
+/* GRADIENT */
+
+#gradient
+{
+  width: 100%;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
 /* SERVICIOS */
 
 .div_servicios {
@@ -117,6 +157,15 @@
     background-color: #9C6644;
 }
 
+.paredes
+{
+  width: 100%;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
+  background: url(../img/pinturas.jpg);
+}
+
 /* NOSOTROS */
 
 .map {
@@ -130,6 +179,47 @@
     height: 400px;
 }
 
+
+
+/* CONTACTO */
+
 .div_contacto {
     background-color: #9C6644;
+}
+
+.titulo_contacto {
+    font-family: 'Titulos';
+    font-size: 3em;
+    color: #DDB892;
+    -webkit-text-stroke: 1.5px white;
+}
+
+.border_contacto {
+    border-bottom: 2px solid white;
+}
+
+.flecha {
+    color: white;
+}
+
+.flecha_nosotros {
+    color: #9C6644;
+}
+
+.formulario_contactame {
+    font-family: 'Titulos';
+    color: white;
+}
+
+.resp {
+    font-family: 'Textos';
+}
+
+.boton_form {
+    padding: 0.65rem;
+    background-color: #DDB892;
+}
+
+footer {
+    font-family: 'Titulos';
 }
